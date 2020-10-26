@@ -115,4 +115,7 @@
          to account for processing and rendering time plus a frame or two of latency
          in the display pipeline plus some slack just to be sure. -->
     <integer name="config_drawLockTimeoutMillis">115</integer>
+    <!--  WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION is deprecated in R so we move to overlay -->
+    <bool name="config_wifi_ap_randomization_supported">false</bool>
+
 </resources>
