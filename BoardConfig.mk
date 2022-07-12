@@ -16,7 +16,11 @@
 DEVICE_PATH := device/samsung/on7xelte
 
 # Audio
-BOARD_USE_TFA_AMP := true
+# TFA-Audio
+BOARD_USES_EXYNOS7870_TFA_AMP := true
+
+# exynos7870 OSS audio hal
+TARGET_AUDIOHAL_VARIANT := samsung-exynos7870
 
 # Display
 TARGET_SCREEN_DENSITY := 320
@@ -63,6 +67,7 @@ WIFI_DRIVER_FW_PATH_STA          := "/vendor/etc/wifi/bcmdhd_sta.bin"
 WIFI_DRIVER_FW_PATH_AP           := "/vendor/etc/wifi/bcmdhd_apsta.bin"
 WIFI_BAND                        := 802_11_ABG
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
+WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
 
 # inherit from common
 -include device/samsung/universal7870-common/BoardConfigCommon.mk
