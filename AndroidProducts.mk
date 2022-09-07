@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The arrowOS Project
+# Copyright (C) 2019 The lineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_on7xelte.mk
+    $(LOCAL_DIR)/lineage_on7xelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_on7xelte-user \
-    arrow_on7xelte-userdebug \
-    arrow_on7xelte-eng
+    lineage_on7xelte-user \
+    lineage_on7xelte-userdebug \
+    lineage_on7xelte-eng
