@@ -34,4 +34,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Set fdsan to the warn_once severity level
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.fdsan=warn_once
->>>>>>> 5327c04 (a3y17lte:common changes; fix Audio)
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.display-size=1280x720
