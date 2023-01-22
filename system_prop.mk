@@ -19,10 +19,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwc.force_gpu=1
 =======
     
-# SurfaceFlinger
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
-    
 # Lockscreen rotation
 PRODUCT_PROPERTY_OVERRIDES += \
     lockscreen.rot_override=true
