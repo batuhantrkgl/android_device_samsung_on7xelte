@@ -68,6 +68,7 @@ WIFI_DRIVER_FW_PATH_AP           := "/vendor/etc/wifi/bcmdhd_apsta.bin"
 WIFI_BAND                        := 802_11_ABG
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
+WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 # inherit from common
 -include device/samsung/universal7870-common/BoardConfigCommon.mk
